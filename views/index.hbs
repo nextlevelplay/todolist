@@ -17,10 +17,17 @@
                 <input type="hidden" value="{{_id}}" name="id">
 
                 <button class="btn btn-small">Save</button>
-
+                
 
 
             </label>
+            </form>
+            <form action="/delete" method="POST">
+            <div class="input">
+            <input type="hidden" value="{{_id}}" name="id">
+            </div>
+            <button type="submit">Delete</button>
+
             </form>
         </li>
     {{/each}}
@@ -28,3 +35,4 @@
 {{else}}
 <p>No task!</p>
 {{/if}}
+
