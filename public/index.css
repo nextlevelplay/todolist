@@ -1,5 +1,12 @@
+
+
+
+
 .todo {
     margin-bottom: 1rem;
+  
+    
+  
 }
 
 .todo span.completed {
@@ -9,14 +16,19 @@
 
 .todo label {
     width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
     cursor: pointer;
     background: #f3f3f3;
     padding: 1rem;
+    
 }
 
 .todo i {
     z-index: 2;
+}
+ 
+.todo div {
+    display: flex;
 }
